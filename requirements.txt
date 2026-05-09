@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+lightgbm
+scikit-learn
+gensim
+faiss-cpu
+torch
+sentence-transformers
+optuna
+fastapi
+redis
