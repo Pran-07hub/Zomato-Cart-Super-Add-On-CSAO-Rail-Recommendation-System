@@ -22,7 +22,6 @@ A two-stage ML pipeline:
 
 | Stage | Component | Purpose | Latency |
 
-|---|---|---|---|
 
 | Stage 1 | Item2Vec + FAISS | Retrieve top-50 candidates from 15K items | \~25ms |
 
@@ -36,7 +35,7 @@ A two-stage ML pipeline:
 
 
 
-\*\*Total end-to-end latency: \~160ms ✓\*\*
+Total end-to-end latency: \~160ms
 
 
 
@@ -69,8 +68,6 @@ Results
 
 
 | Model | NDCG@10 | Precision@10 | AUC |
-
-|---|---|---|---|
 
 | Popularity Baseline | 0.31 | 0.22 | 0.61 |
 
